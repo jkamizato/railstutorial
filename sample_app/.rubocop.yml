@@ -1,0 +1,8 @@
+AllCops:
+  Exclude:
+    - db/schema.rb
+    - db/migrate/*
+    - bin/*
+    - config/*
+    - Gemfile
+    - Rakefile
