@@ -5,7 +5,8 @@ require "minitest/reporters"
 Minitest::Reporters.use!
 
 class ActiveSupport::TestCase
-  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
+  # Setup all fixtures in test/fixtures/*.yml
+  # for all tests in alphabetical order.
   fixtures :all
   include ApplicationHelper
 
@@ -28,11 +29,11 @@ class ActiveSupport::TestCase
   end
 
   private
-    # Returns true inside an integration test.
-    def integration_test?
-      defined?(post_via_redirect)
-    end
 
+  # Returns true inside an integration test.
+  def integration_test?
+    defined?(post_via_redirect)
+  end
 
   # Add more helper methods to be used by all tests here...
 end
