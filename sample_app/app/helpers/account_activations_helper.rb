@@ -1,2 +1,3 @@
+# AccountActivation
 module AccountActivationsHelper
 end

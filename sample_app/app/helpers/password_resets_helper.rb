@@ -1,2 +1,3 @@
+# Password
 module PasswordResetsHelper
 end

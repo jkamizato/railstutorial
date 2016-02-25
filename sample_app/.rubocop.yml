@@ -4,3 +4,5 @@ AllCops:
     - db/migrate/*
     - bin/*
     - config/*
+    - Gemfile
+    - Rakefile

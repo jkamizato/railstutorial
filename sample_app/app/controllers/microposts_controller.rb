@@ -21,7 +21,7 @@ class MicropostsController < ApplicationController
   private
 
   def micropost_params
-    params.require(:micropost).permit(:content)
+    params.require(:micropost).permit(:content, :picture)
   end
 
   def correct_user
@@ -29,5 +29,3 @@ class MicropostsController < ApplicationController
     redirect_to root_url if @micropost.nil?
   end
 end
-
-
